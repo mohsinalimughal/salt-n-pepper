@@ -1,0 +1,128 @@
+/* --------NAV BAR--------- */
+.nav-box {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    margin-left: 10rem;
+    margin-right: 30rem;
+    height: 8rem;
+    width: auto;
+  }
+  .nav-list {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  .nav-list > li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .button-1 {
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 5.5rem;
+    width: 15rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+  }
+  .button-2 {
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 5.5rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    background-color: red;
+  }
+/* =================nav-bar END===================   */
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.book-box{
+    border: 1px solid rgb(104, 88, 69);
+    width: 40%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-img{
+    height: 85%;
+    transition: 0.5s;
+}
+.book-img:hover{
+    height: 95%;
+}
+h1{
+    font-size: 4.5rem;
+    text-align: center;
+    margin-top: 40px;
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 40px;
+}
+.text{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 7px;
+    color: rgb(195, 195, 195);
+}
+
+
+
+/* ==========================footer start=================== */
+
+footer{
+    margin-top: 50px;
+    height: 450px;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 70px;
+  }
+  .footer-first-box {
+    width: 282px;
+    font-size: 1.3rem;
+  }
+  .footer-logo {
+    height: 50px;
+    margin-bottom: 25px;
+  }
+  .headings {
+    font-weight: 1000;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .footer-second-box > ul > li {
+    margin-bottom: 13px;
+    margin-top: 13px;
+  }
+  .footer-links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: azure;
+  }
+  
+  .social-icon-circle {
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border-radius: 100%;
+  }
+  /* ==========================footer start=================== */
