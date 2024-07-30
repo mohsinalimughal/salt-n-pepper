@@ -22,3 +22,10 @@ body{
     display: flex;
     justify-content: center;
 }
+.gap-30{
+    display: flex;
+    gap: 30px;
+}
+.margin-50{
+    margin: 50px;
+}
