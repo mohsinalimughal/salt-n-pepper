@@ -48,6 +48,13 @@
 .page-1{
     width: 100%;
 }
+.page-2{
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 .poster{
     width: 100%;
     opacity: 0.6;
@@ -70,13 +77,21 @@ h3{
 }
 .left-box{
     width: 50%;
-    height: 900px;
-    border-right: 1px dotted white;
+    height: 1100px;
+    border-right: 2px dotted white;
+    display: flex;
+    justify-content: center;
+}
+.left-container{
+  width: 70%;
+  height: 1200px;
+  /* border: 1px solid white; */
 }
 .text-1{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 .text-2{
     text-align: left;
@@ -103,8 +118,51 @@ h3{
     height: 40px;
     width: 400px;
 }
+.branch{
+  height: 40px;
+  width: 400px;
+}
+.text-feild{
+  height: 90px;
+  width: 400px;
+}
+.fvrt-manu{
+  height: 40px;
+  width: 120px;
+}
+.submit-button{
+  background-color: red;
+  color: white;
+  border-radius: 40px;
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-left: 20px;
+}
 
 
+.right-container{
+  margin-right: 30px;
+  width: 45%;
+  height: 1150px;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-box-heading{
+  font-size: 3rem;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.map-box{
+  height: 250px;
+  width: 550px;
+}
 
 
 
